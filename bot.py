@@ -77,12 +77,12 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Updates Channel", url="https://t.me/Ks_Bots")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("", callback_data=""),
+                        InlineKeyboardButton("", callback_data=""),
+                        InlineKeyboardButton("", callback_data="")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/game_sk1"),
+                        InlineKeyboardButton("", url=""),
                         InlineKeyboardButton("", url="")
                     ]
                 ]
